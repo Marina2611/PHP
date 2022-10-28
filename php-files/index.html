@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="post" action="FormularReader.php">
+   <table>
+        <tr>
+            <td><label id="name">Name</label></td>
+            <td><input aria-labelledby="name" name="name">
+            </td>
+        </tr>
+        <tr>
+            <td><label id="email">E-Mail</label>
+            </td>
+            <td><input aria-labelledby="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td><label id="website">Website</label>
+            </td>
+            <td><input aria-labelledby="website" name="website">
+            </td>
+        </tr>
+        <tr>
+            <td><label id="comment">Comment</label>
+            </td>
+            <td><input aria-labelledby="comment" name="comment">
+            </td>
+        </tr>
+        <tr>
+            <td><label>Gender</label>
+            </td>
+            <td><label id="female">Female</label>
+                <label id="male">Male</label>
+                <label id="divers">Divers</label>
+                <input type="radio" aria-labelledby="female" name="gender" value="Female">
+                <input type="radio" aria-labelledby="male" name="gender" value="Male">
+                <input type="radio" aria-labelledby="divers" name="gender" value="Divers">
+            </td>
+        </tr>
+    </table>
+    <input type="submit">
+</form>
+</body>
+</html>
