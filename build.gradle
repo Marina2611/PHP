@@ -22,10 +22,10 @@ application {
 tasks.named('test') {
     useJUnitPlatform()
 }
-//
-//embeddedMysql {
-//    url = 'jdbc:mysql://localhost:3306/databaseName'
-//    username = 'user'
-//    password = ''
-//    version = 'v5_7_latest'
-//}
+
+embeddedMysql {
+    url = 'jdbc:mysql://localhost:3306/databaseName'
+    username = 'user'
+    password = ''
+    version = 'v5_7_latest'
+}
