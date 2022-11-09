@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Neuwagen SYSTEM >
+<Neuwagen>
+    <Marke>Audi</Marke>
+    <Preis_bis>2.000</Preis_bis>
+    <Km_bis>20.000</Km_bis>
+    <Land>Albanien</Land>
+</Neuwagen>
