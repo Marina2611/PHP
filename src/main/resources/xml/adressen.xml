@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Adressen SYSTEM "adressen.dtd">
+<Adressen>
+    <Adresse>
+        <Nummer>1</Nummer>
+        <Vorname>Max</Vorname>
+        <Nachname>Mustermann</Nachname>
+        <Strasse>Mittelstrasse 2</Strasse>
+        <Postleitzahl>32657</Postleitzahl>
+        <Ort>Lemgo</Ort>
+    </Adresse>
+    <Adresse>
+        <Nummer>2</Nummer>
+        <Vorname>Eva</Vorname>
+        <Nachname>Musterfrau</Nachname>
+        <Strasse>Hauptstrasse 1</Strasse>
+        <Postleitzahl>32756</Postleitzahl>
+        <Ort>Detmold</Ort>
+    </Adresse>
+</Adressen>

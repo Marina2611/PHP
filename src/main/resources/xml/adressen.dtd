@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT Adressen (Adresse)*>
+<!ELEMENT Adresse (Nummer,Vorname, Nachname,Strasse,Postleitzahl, Ort)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Nachname (#PCDATA)>
+<!ELEMENT Strasse (#PCDATA)>
+<!ELEMENT Postleitzahl (#PCDATA)>
+<!ELEMENT Ort (#PCDATA)>
+<!ELEMENT Nummer (#PCDATA)>
